@@ -104,6 +104,18 @@
             "ref": "ba769b98463f9d5f3d907db32bb64337d1e62ecb"
         }
     },
+    "symfony/twig-bridge": {
+        "version": "v3.4.12"
+    },
+    "symfony/twig-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "f75ac166398e107796ca94cc57fa1edaa06ec47f"
+        }
+    },
     "symfony/web-server-bundle": {
         "version": "3.3",
         "recipe": {
@@ -115,5 +127,8 @@
     },
     "symfony/yaml": {
         "version": "v3.4.12"
+    },
+    "twig/twig": {
+        "version": "v2.5.0"
     }
 }
