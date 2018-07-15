@@ -5,6 +5,7 @@
         "php": "^7.0.8",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "knplabs/knp-markdown-bundle": "^1.7",
         "phpunit/phpunit": "^6.5",
         "symfony/asset": "^3.4",
         "symfony/console": "^3.4",
