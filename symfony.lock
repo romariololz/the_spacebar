@@ -2,6 +2,9 @@
     "composer/ca-bundle": {
         "version": "1.1.1"
     },
+    "doctrine/inflector": {
+        "version": "v1.2.0"
+    },
     "doctrine/instantiator": {
         "version": "1.0.5"
     },
@@ -40,6 +43,9 @@
     },
     "nexylan/slack-bundle": {
         "version": "v1.1.2"
+    },
+    "nikic/php-parser": {
+        "version": "v4.0.3"
     },
     "phar-io/manifest": {
         "version": "1.0.1"
@@ -238,6 +244,15 @@
     },
     "symfony/lts": {
         "version": "v3"
+    },
+    "symfony/maker-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
+        }
     },
     "symfony/monolog-bridge": {
         "version": "v3.4.12"
