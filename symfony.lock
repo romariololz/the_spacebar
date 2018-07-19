@@ -14,6 +14,15 @@
             "ref": "70062abc2cd58794d2a90274502f81b55cd9951b"
         }
     },
+    "guzzlehttp/guzzle": {
+        "version": "6.3.3"
+    },
+    "guzzlehttp/promises": {
+        "version": "v1.3.1"
+    },
+    "guzzlehttp/psr7": {
+        "version": "1.4.2"
+    },
     "knplabs/knp-markdown-bundle": {
         "version": "1.7.0"
     },
@@ -26,11 +35,26 @@
     "myclabs/deep-copy": {
         "version": "1.7.0"
     },
+    "nexylan/slack": {
+        "version": "1.7.0"
+    },
+    "nexylan/slack-bundle": {
+        "version": "v1.1.2"
+    },
     "phar-io/manifest": {
         "version": "1.0.1"
     },
     "phar-io/version": {
         "version": "1.0.1"
+    },
+    "php-http/guzzle6-adapter": {
+        "version": "v1.1.1"
+    },
+    "php-http/httplug": {
+        "version": "v1.1.0"
+    },
+    "php-http/promise": {
+        "version": "v1.0.0"
     },
     "phpdocumentor/reflection-common": {
         "version": "1.0.1"
@@ -76,6 +100,9 @@
     },
     "psr/container": {
         "version": "1.0.0"
+    },
+    "psr/http-message": {
+        "version": "1.0.1"
     },
     "psr/log": {
         "version": "1.0.2"
