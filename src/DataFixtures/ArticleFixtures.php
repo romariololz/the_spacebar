@@ -23,6 +23,9 @@ class ArticleFixtures extends BaseFixture
         'Amy Oort',
     ];
 
+    /**
+     * @param ObjectManager $manager
+     */
     protected function loadData(ObjectManager $manager)
     {
         $this->createMany(Article::class, 10, function($article, $count) use ($manager){
