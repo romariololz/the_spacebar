@@ -17,3 +17,7 @@ article_toggle_heart:
 article_new:
     path: /admin/article/new
     defaults: { _controller: 'App\Controller\ArticleAdminController::new' }
+
+comment_admin:
+    path: /admin/comment
+    defaults: { _controller: 'App\Controller\CommentAdminController::index' }

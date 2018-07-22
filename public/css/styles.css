@@ -236,3 +236,10 @@ html {height:100%}
   background-color: #fff;
   margin-top: 10px;
 }
+
+/* ADDED CAUSE OF MISSING CLASSE */
+
+.show-article-container-border-green{
+    border-radius: 5px;
+    border-top: 5px solid green;
+}
