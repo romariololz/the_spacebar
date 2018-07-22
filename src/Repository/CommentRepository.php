@@ -21,21 +21,24 @@ class CommentRepository extends ServiceEntityRepository
 
     /**
      * @param null|string $term
-     * @return Comment[]
+     * @return Comment []
      */
     public function findAllWithSearch(?string $term)
     {
-        $qb = $this->createQueryBuilder('c');
+        $qb = $this->createQueryBuilder('c')
+            ->innerJoin('c.article', 'a')
+            ->addSelect('a');
 
-        if ($term)
-        {
-            $qb->andWhere('c.content LIKE :term OR c.authorName LIKE :term')
-                ->setParameter('term', '%'.$term.'%');
+        if ($term) {
+            $qb->andWhere('c.content LIKE :term OR c.authorName LIKE :term OR a.title LIKE :term')
+                ->setParameter('term', '%' . $term . '%')
+            ;
         }
-
-        return $qb->orderBy('c.createdAt', 'DESC')
+        return $qb
+            ->orderBy('c.createdAt', 'DESC')
             ->getQuery()
-            ->getResult();
+            ->getResult()
+            ;
     }
 
 //    /**
